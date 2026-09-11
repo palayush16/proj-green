@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --paper: #FAF8F3;
+    --putty: #EEEAE0;
+    --putty-deep: #E2DCCC;
+    --moss-dark: #232B1F;
+    --moss: #3C4A33;
+    --sage: #7C8A6D;
+    --ochre: #A8752E;
+    --line: rgba(35,43,31,0.14);
+  }
+
+  body {
+    @apply bg-paper text-moss-dark font-sans antialiased;
+  }
+}
